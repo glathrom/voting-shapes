@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <title>MO 2011 House Districts (SHP)</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This dataset provides boundaries of the Misouri State House of Representatives</abstract>
+            <purpose>This dataset provides boundaries of the Misouri State House of Representatives</purpose>
+            <supplinf>This dataset was created using Caliper Maptitude for Redistricting software during the Missouri redistricting process in 2011. The resulting data was then exported to the final House Apportionment Plan shapefile and projected in UTM zone 15N, NAD 83 meters.</supplinf>
+        </descript>
+        <status>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-95.775271</westbc>
+                <eastbc>-88.898060</eastbc>
+                <northbc>40.620633</northbc>
+                <southbc>35.962482</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>boundaries</themekey>
+                <themekey>states</themekey>
+                <themekey>voting districts</themekey>
+                <themekey>society</themekey>
+                <themekey>legislative</themekey>
+                <themekey>districts</themekey>
+                <themekey>boundary</themekey>
+                <themekey>Missouri</themekey>
+                <themekey>district</themekey>
+                <themekey>house of representatives</themekey>
+                <themekey>House Districts</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>Although all data in this dataset have been compiled by the Missouri Office of Administration, Division of Budget and Planning, Redistricting Office, no warranty, expressed or implied, is made by the office as to the accuracy of the data and related materials.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Redistricting\OA</cntorg>
+                    <cntper>Matt Hesser</cntper>
+                </cntorgp>
+                <cntpos>State Demographer</cntpos>
+                <cntvoice>(573) 751-9318</cntvoice>
+                <cntemail>Matt.Hesser@oa.mo.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <secinfo>
+            <secclass>Unclassified</secclass>
+        </secinfo>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9270</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>163</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>MO_2011_House_Districts_shp</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>FID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DISTRICT</attrlabl>
+                <attrdef>District Number as defined in the redistricting process</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>POPULATION</attrlabl>
+                <attrdef>Total Population  = Sum of  White , Black , AmIndian , Asian , Hawaiian , Other  and  2+Races</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>IDEAL</attrlabl>
+                <attrdef>Target district population in 2010 redistricting cycle</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>DEVIATION</attrlabl>
+                <attrdef>Deviation from ideal redistricting population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>WHITE</attrlabl>
+                <attrdef>White only population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>BLACK</attrlabl>
+                <attrdef>Black only population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AMINDIAN</attrlabl>
+                <attrdef>American Indian/Alaskan Native only population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ASIAN</attrlabl>
+                <attrdef>Asian only population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HAWAIIAN</attrlabl>
+                <attrdef>Native Hawaiian and Other Pacific Islander only population </attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OTHER</attrlabl>
+                <attrdef>Some other race only population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MULTI_RACE</attrlabl>
+                <attrdef>Two or more races in combination population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AP_BLK</attrlabl>
+                <attrdef>Black only or in combination with other race categories (any part black) population.
+
+</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HISPANIC</attrlabl>
+                <attrdef>Hispanic or Latino population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NOT_HISP</attrlabl>
+                <attrdef>Not Hispanic or Latino population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NH_WHT</attrlabl>
+                <attrdef>White only not Hispanic or Latino population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MINORITY</attrlabl>
+                <attrdef>Minority Population  = Total Population  minus White only not Hispanic or Latino population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>POP_18PLUS</attrlabl>
+                <attrdef>Voting Age Population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>WHT_18PLUS</attrlabl>
+                <attrdef>Voting Age White only population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>BLK_18PLUS</attrlabl>
+                <attrdef>Voting Age Black only population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>IND_18PLUS</attrlabl>
+                <attrdef>Voting Age American Indian/Alaskan Native only population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ASN_18PLUS</attrlabl>
+                <attrdef>Voting Age Asian only population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HWN_18PLUS</attrlabl>
+                <attrdef>Voting Age Native Hawaiian and Other Pacific Islander only population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OTH_18PLUS</attrlabl>
+                <attrdef>Voting Age some other race only population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MR_18PLUS</attrlabl>
+                <attrdef>Voting Age two or more races in combination population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>APB_18PLUS</attrlabl>
+                <attrdef>Voting Age Black only or in combination with other race categories population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HISP_18PLU</attrlabl>
+                <attrdef>Voting Age Hispanic or Latino population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NH_18PLUS</attrlabl>
+                <attrdef>Voting Age Not Hispanic or Latino population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NH_W18PLUS</attrlabl>
+                <attrdef>Voting Age White only not Hispanic or Latino population</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MIN_18PLUS</attrlabl>
+                <attrdef>Voting Age Population minus Voting Age White only not Hispanic or Latino population</attrdef>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distliab>See access and use constraints information.</distliab>
+    </distinfo>
+    <metainfo>
+        <metd>20191210</metd>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
